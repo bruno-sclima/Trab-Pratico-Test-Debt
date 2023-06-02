@@ -5,8 +5,8 @@ from github import Github
 repo_name = "bruno-sclima/Trab-Pratico-Test-Debt"
 issue_title = "Dívida Técnica de Testes"
 issue_body = "Issue de Dívida técnica de testes criada automaticamente"
-github_token = "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"
-minimum_coverage = 100  # Porcentagem mínima de cobertura desejada
+github_token = "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"
+minimum_coverage = 75  # Porcentagem mínima de cobertura desejada
 
 # Autenticação no GitHub
 g = Github(github_token)

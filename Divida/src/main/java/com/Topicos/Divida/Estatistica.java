@@ -66,7 +66,7 @@ public class Estatistica {
         int max = entrada.stream().mapToInt(n ->n).max().getAsInt();
         return max - min;
     }
-    /*
+
     public double calcularDesvioPadrao() {
         // Calcula a média
         double media = media();
@@ -85,6 +85,6 @@ public class Estatistica {
         double desvioPadrao = Math.sqrt(mediaQuadrados);
 
         return desvioPadrao;
-    }*/
+    }
 
 }
